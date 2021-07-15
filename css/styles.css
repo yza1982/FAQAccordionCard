@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 12px;
+  line-height: 1.3em;
+  overflow: visible;
+}
+
+ul {
+  list-style: none;
+}
+
+main {
+  background: -webkit-gradient(linear, left top, left bottom, from(#af67e9), to(#6565e7));
+  background: linear-gradient(#af67e9, #6565e7);
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media only screen and (max-width: 1195px) {
+  main {
+    height: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 150px 0;
+  }
+}
+
+@media only screen and (max-width: 936px) {
+  main {
+    padding: 100px 0 150px 0;
+  }
+}
+
+.card {
+  -webkit-box-shadow: #4a4b5e 2px 1px 15px;
+          box-shadow: #4a4b5e 2px 1px 15px;
+  background-color: #fff;
+  margin: auto auto;
+  width: 1340px;
+  max-width: 1440px;
+  height: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+  border-radius: 20px;
+  padding: 3em 2em;
+}
+
+@media only screen and (max-width: 1565px) {
+  .card {
+    width: 1100px;
+    max-width: 1100px;
+    height: 750px;
+    gap: 80px;
+  }
+}
+
+@media only screen and (max-width: 1305px) {
+  .card {
+    width: 950px;
+    max-width: 950px;
+    height: 75%;
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 1195px) {
+  .card {
+    width: 90%;
+    max-width: none;
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+    margin: 0;
+    gap: 0;
+  }
+}
+
+@media only screen and (max-width: 936px) {
+  .card {
+    width: 70%;
+  }
+}
+
+.card-img {
+  width: 45%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 1195px) {
+  .card-img {
+    display: none;
+  }
+}
+
+.card-img-online {
+  width: 600px;
+  max-width: 600px;
+  height: 600px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+}
+
+@media only screen and (max-width: 1565px) {
+  .card-img-online {
+    width: 550px;
+    max-width: 550px;
+  }
+}
+
+@media only screen and (max-width: 1305px) {
+  .card-img-online {
+    width: 400px;
+    max-width: 400px;
+  }
+}
+
+@media only screen and (max-width: 1195px) {
+  .card-img-online {
+    display: none;
+  }
+}
+
+.card-img-box {
+  width: 250px;
+  max-width: 250px;
+  height: 250px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-transform: translate(-770px, 80px);
+          transform: translate(-770px, 80px);
+}
+
+@media only screen and (max-width: 1565px) {
+  .card-img-box {
+    width: 300px;
+    max-width: 300px;
+    -webkit-transform: translate(-730px, 80px);
+            transform: translate(-730px, 80px);
+  }
+}
+
+@media only screen and (max-width: 1305px) {
+  .card-img-box {
+    width: 200px;
+    max-width: 200px;
+    -webkit-transform: translate(-560px, 50px);
+            transform: translate(-560px, 50px);
+  }
+}
+
+@media only screen and (max-width: 1195px) {
+  .card-img-box {
+    display: none;
+  }
+}
+
+.card-mobile-img {
+  display: none;
+}
+
+@media only screen and (max-width: 1195px) {
+  .card-mobile-img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    -webkit-transform: translate(-5%, -165px);
+            transform: translate(-5%, -165px);
+  }
+}
+
+.card-mobile-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.card-faq {
+  width: 55%;
+  height: 100%;
+  padding-right: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 100px;
+}
+
+@media only screen and (max-width: 1565px) {
+  .card-faq {
+    gap: 110px;
+    padding-right: 3em;
+  }
+}
+
+@media only screen and (max-width: 1305px) {
+  .card-faq {
+    gap: 120px;
+  }
+}
+
+@media only screen and (max-width: 1195px) {
+  .card-faq {
+    width: 90%;
+    margin: auto;
+    padding-right: 0;
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+
+@media only screen and (max-width: 936px) {
+  .card-faq {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+    gap: 90px;
+    height: auto;
+  }
+}
+
+.card-faq h1 {
+  margin-top: 50px;
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #1d1e35;
+}
+
+@media only screen and (max-width: 1565px) {
+  .card-faq h1 {
+    margin-top: 90px;
+  }
+}
+
+@media only screen and (max-width: 1305px) {
+  .card-faq h1 {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 1195px) {
+  .card-faq h1 {
+    margin-top: 0;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 936px) {
+  .card-faq ul {
+    padding: 0 3em;
+  }
+}
+
+.card-faq ul li {
+  padding: 1em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-bottom: #e7e7e9 3px solid;
+}
+
+@media only screen and (max-width: 936px) {
+  .card-faq ul li {
+    padding: 2em 0;
+  }
+}
+
+.sec-q {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+
+.sec-q h3 {
+  font-size: 1.3em;
+  font-weight: 400;
+  -webkit-transition: color 0.3s linear 0.2ms;
+  transition: color 0.3s linear 0.2ms;
+  color: #1d1e35;
+}
+
+.sec-q:hover h3 {
+  color: #f47c57;
+}
+
+.sec-a {
+  height: 0;
+  visibility: hidden;
+  -webkit-transition: height 0.2s linear 0.1ms;
+  transition: height 0.2s linear 0.1ms;
+}
+
+.sec-a h3 {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #1d1e35;
+}
+/*# sourceMappingURL=styles.css.map */

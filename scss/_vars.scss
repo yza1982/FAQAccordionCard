@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+$colors-text-pri: (
+  "veryDarkDesaturatedBlue": hsl(238, 29%, 16%),
+  "softRed": hsl(14, 88%, 65%),
+);
+
+$colors-text-sec: (
+  "veryDarkGrayishBlue": hsl(237, 12%, 33%),
+  "darkGrayishBlue": hsl(240, 6%, 50%),
+);
+
+$colors-background: (
+  "softBlue": hsl(240, 73%, 65%),
+  "softViolet": hsl(273, 75%, 66%),
+);
+
+$color-div: hsl(240, 5%, 91%);
+
+@mixin Medium {
+  @media only screen and (max-width: 1565px) {
+    @content;
+  }
+}
+
+@mixin Small {
+  @media only screen and (max-width: 1305px) {
+    @content;
+  }
+}
+
+@mixin XSmall {
+  @media only screen and (max-width: 1195px) {
+    @content;
+  }
+}
+
+@mixin XXSmall {
+  @media only screen and (max-width: 936px) {
+    @content;
+  }
+}
